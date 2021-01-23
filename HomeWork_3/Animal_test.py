@@ -6,7 +6,7 @@
 添加一个新的属性，毛发 = 短毛，
 添加一个新的方法， 会捉老鼠，
 重写父类的【会叫】的方法，改成【喵喵叫】"""
-
+# from python import decorator_test
 
 class AnimalDemo:
     def __init__(self, name, color, age, sex):
@@ -15,6 +15,7 @@ class AnimalDemo:
         self.animals_age = age
         self.animals_sex = sex
 
+    # @decorator_test.log_decoratorDemo
     def sing(self):
         print(f"{self.animals_name} can singing")
 
