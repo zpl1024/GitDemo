@@ -9,7 +9,7 @@
 但是本模块中的函数名__name__为HomeWork_3.saveMoney.send_money，
 不是__main__,所以下面if条件不成立，模块函数入口不执行"""
 # print('我是send_money 导入前的第一句话:')
-from HomeWork_3.saveMoney.select_money import select_money
+from homework.saveMoney.select_money import select_money
 
 
 # print('我是send_money 导入下的第一句话:')

@@ -9,8 +9,8 @@
 再往下执行然后执行到main，开始进入函数执行，调用函数时再去被调用函数内部执行，被调用模块内，被调用函数的外的不再执行
 如果被调用函数又调用其他函数，方法一样"""
 
-from HomeWork_3.saveMoney.money import saved_money
-from HomeWork_3.saveMoney.send_money import send_Money
+from homework.saveMoney.money import saved_money
+from homework.saveMoney.send_money import send_Money
 # print('start.py main')
 # print(__name__)
 
