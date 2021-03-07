@@ -1,0 +1,3 @@
+- name: caps
+  appPackage: 'com.tencent.wework'
+  appActivity: '.launch.LaunchSplashActivity'
