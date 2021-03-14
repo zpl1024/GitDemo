@@ -1,0 +1,6 @@
+- goto_staffdetail:
+#  点击个人信息右上角三个点
+    - by: xpath
+      locator: "//*[@resource-id='com.tencent.wework:id/igo']"
+#      locator: "//*[@resource-id='com.tencent.wework:id/dtv']"
+      action: click

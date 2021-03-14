@@ -1,0 +1,11 @@
+datas:
+  - name: 'appusr025'
+    telephone: '13112345025'
+#    gender: '男'
+  - name: 'appusr026'
+    telephone: '13112345026'
+#    gender: '女'
+names:
+  - 'adduser 025'
+  - 'adduser 026'
+

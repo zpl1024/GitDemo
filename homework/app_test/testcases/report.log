@@ -1,0 +1,14 @@
+Sun, 14 Mar 2021 15:34:47 basepage.py[line:26] INFO find: by=xpath,locator=//*[@text="通讯录"]
+Sun, 14 Mar 2021 15:35:46 basepage.py[line:26] INFO find: by=xpath,locator=//*[@text="通讯录"]
+Sun, 14 Mar 2021 15:36:22 basepage.py[line:26] INFO find: by=xpath,locator=//*[@text="手动输入添加"]
+Sun, 14 Mar 2021 15:36:24 basepage.py[line:26] INFO find: by=xpath,locator=//*[contains(@text,"姓名")]/..//android.widget.EditText
+Sun, 14 Mar 2021 15:36:28 basepage.py[line:26] INFO find: by=xpath,locator=//*[@text="手机号"]
+Sun, 14 Mar 2021 15:36:30 basepage.py[line:26] INFO find: by=xpath,locator=//*[@text="性别"]/../android.widget.RelativeLayout
+Sun, 14 Mar 2021 15:36:34 basepage.py[line:26] INFO find: by=xpath,locator=//*[@text="女"]
+Sun, 14 Mar 2021 15:36:35 basepage.py[line:26] INFO find: by=xpath,locator=//*[@text="保存"]
+Sun, 14 Mar 2021 15:36:36 basepage.py[line:26] INFO find: by=xpath,locator=//*[@class="android.widget.Toast"]
+Sun, 14 Mar 2021 15:36:38 basepage.py[line:26] INFO find: by=xpath,locator=//*[@class="android.widget.Toast"]
+Sun, 14 Mar 2021 15:37:10 basepage.py[line:26] INFO find: by=xpath,locator=//*[@text="通讯录"]
+Sun, 14 Mar 2021 15:37:23 basepage.py[line:26] INFO find: by=xpath,locator=//*[@resource-id='com.tencent.wework:id/igk']
+Sun, 14 Mar 2021 15:37:35 basepage.py[line:26] INFO find: by=xpath,locator=//*[@resource-id='com.tencent.wework:id/gy9']
+Sun, 14 Mar 2021 15:37:37 basepage.py[line:26] INFO find: by=xpath,locator=//*[@resource-id='com.tencent.wework:id/emw']/android.widget.TextView

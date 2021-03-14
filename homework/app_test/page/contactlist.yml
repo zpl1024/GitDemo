@@ -1,0 +1,8 @@
+- goto_type:
+    - action: croll_find_click
+      text: '添加成员'
+- goto_search:
+    - by: xpath
+      locator: "//*[@resource-id='com.tencent.wework:id/igk']"
+      action: click
+

@@ -1,0 +1,5 @@
+- delete_staff:
+# 点击删除成员
+    - by: xpath
+      locator: '//*[@resource-id="com.tencent.wework:id/esd"]'
+      action: click

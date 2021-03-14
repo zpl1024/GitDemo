@@ -1,0 +1,6 @@
+- goto_editstaff:
+#    点击个人信息中的编辑成员
+    - by: xpath
+      locator: '//*[@resource-id="com.tencent.wework:id/bct"]'
+#      locator: "//*[@resource-id='com.tencent.wework:id/iga']"
+      action: click

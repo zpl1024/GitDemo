@@ -1,0 +1,5 @@
+- find_toast:
+
+    - name: toast
+      by: xpath
+      locator: '//*[@class="android.widget.Toast"]'

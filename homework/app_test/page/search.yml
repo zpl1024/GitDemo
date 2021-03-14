@@ -1,0 +1,9 @@
+- search_staff:
+  - by: xpath
+    locator: "//*[@resource-id='com.tencent.wework:id/gy9']"
+    action: send
+    keys: '{staff_name}'
+  - by: xpath
+    locator: "//*[@resource-id='com.tencent.wework:id/emw']/android.widget.TextView"
+    name: judge
+    condition: '{staff_name}'
