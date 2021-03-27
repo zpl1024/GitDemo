@@ -12,7 +12,7 @@ class TestAddress:
                 }
     #关闭session
     def teardown_class(self):
-        self.address.close_session()
+        self.address.close_address()
 
     def test_creat_member(self):
         #先清理环境，不要存在api006脏数据
