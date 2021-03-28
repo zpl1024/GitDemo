@@ -1,0 +1,5 @@
+address_api:
+    creat_member: 'https://qyapi.weixin.qq.com/cgi-bin/user/create'
+    update_memberinfo: 'https://qyapi.weixin.qq.com/cgi-bin/user/update'
+    get_memberinfo: 'https://qyapi.weixin.qq.com/cgi-bin/user/get'
+    delete_member: 'https://qyapi.weixin.qq.com/cgi-bin/user/delete'

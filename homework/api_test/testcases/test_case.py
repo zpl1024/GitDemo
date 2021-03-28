@@ -1,15 +1,24 @@
 from homework.api_test.api.address_api import AddressApi
+from homework.api_test.testcases.test_base import TestBase
 
-class TestAddress:
+
+class TestAddress(TestBase):
 
     def setup_class(self):
+        #实例化addressApi基类
         self.address = AddressApi()
-        self.data = {
-            'userid': 'api006',
-            'name': 'api006',
-            'mobile': '13112340006',
-            'department': [1]
-                }
+        self.address.address_init()
+        #实例化测试基类，读出测试数据
+        self.testbase = TestBase()
+        self.data = self.testbase.read_casedata()
+        #不用测试基类，直接打开文件
+        # with open("testcase_data.yaml", encoding='UTF-8') as f:
+        #     datas = yaml.safe_load(f)
+        #     for key in datas.keys():
+        #         if  key == 'address_data':
+        #             self.data = datas['address_data']
+
+
     #关闭session
     def teardown_class(self):
         self.address.close_address()
@@ -28,8 +37,6 @@ class TestAddress:
     def test_update_memberinfo(self):
         #先准备环境，创建好要更新的用户
         self.address.creat_member(self.data)
-        #保存原值
-        old_name = self.data['name']
         update_name = 'update003'
         #更新成员信息
         self.data['name'] = update_name

@@ -1,0 +1,4 @@
+base:
+    corpid : 'ww65ca78c44a062bb5'
+    corpsecret : '43jmwXaERMFHw-q7JHFxfh2pDJft1Y1nBLk4UnVmrF0'
+    token_url: 'https://qyapi.weixin.qq.com/cgi-bin/gettoken'
