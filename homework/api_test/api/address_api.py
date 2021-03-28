@@ -3,6 +3,7 @@ from homework.api_test.api.base import Base
 class AddressApi(Base):
 
     def address_init(self):
+        #从配置文件中获取通讯录接口
         address_api = self.read_file('../api/address_api.yaml')
         self.creat_member_url = address_api['creat_member']
         self.update_memberinfo_url = address_api['update_memberinfo']

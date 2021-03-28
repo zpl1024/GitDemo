@@ -1,7 +1,6 @@
 import requests
 import yaml
 
-
 class Base:
 
     def __init__(self):
@@ -22,7 +21,7 @@ class Base:
         self.sess.close()
 
     def read_file(self,path):
-
+        #获取配置文件中的相关接口信息
         with open(path,encoding='UTF-8') as f:
             conf = yaml.safe_load(f)
             for key in conf.keys():
